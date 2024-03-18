@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6170d62a15.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav_logo">Welcome</a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_items">
+              <a href="#about" class="nav_link active">About</a>
+            </li>
+            <li class="nav_items">
+              <a href="#skills" class="nav_link active">Skills</a>
+            </li>
+            <li class="nav_items">
+              <a href="#work" class="nav_link active">Project</a>
+            </li>
+            <li class="nav_items">
+              <a href="#contact" class="nav_link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- HOME SECTION -->
+      <section class="home bd_grid" id="home">
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Hi, <br />I'm <span class="home_title-color">Logesh Murugesan</span
+            ><br />Software Developer
+          </h1>
+          <a href="#contact" class="button"> Contact</a>
+        </div>
+
+        <div class="home_social">
+          <!-- <a href="#" class="home_social-icon"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a> -->
+          <a
+            href="mailto:lokeshmurugesan18@gmail.com"
+            class="home_social-icon"
+            ><i class="bx bxs-envelope"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/logesh-m-396419251/"
+            class="home_social-icon"
+            ><i class='bx bxl-linkedin'></i></a>
+          <a
+            href="https://github.com/LogeshMurugesan18"
+            class="home_social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        
+        <!-- <div class="social">
+          <a target="_blank" href="https://doctor-appointment-log.netlify.app/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div> -->
+
+
+        <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+          <img src="./img/LogAi.png" alt="" />
+          
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about section" id="about">
+        <h2 class="section-title" data-aos="fade-down">About</h2>
+
+        <div class="about_container bd_grid">
+          <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+              <img src="./img/Log-pic2.jpg" alt="" />
+            
+          </div>
+
+          <div>
+            <h2
+              class="about_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              I'm Logesh M
+            </h2>
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+                Aspiring software engineer with a solid foundation in programming and web development, 
+                eager to contribute to the creation of reliable and user-friendly software applications. Possesses 
+                a keen analytical aptitude and a commitment to excellence. Motivated to enhance and broaden skill 
+                set through targeted mentorship and engaging projects. Demonstrates exceptional communication and 
+                interpersonal skills, coupled with the ability to work both independently and collaboratively within 
+                a team.
+                <!-- <a href="./img/717821L326 - Logesh M.pdf" download class="cvbtn"></a> -->
+            </p>
+            <a href="./img/717821L326_Logesh M.pdf" download class="button">Download CV</a>
+          </div>
+        </div> 
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+        <div class="skills_container bd_grid">
+          <div>
+            <h2
+              class="skills_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              Professional Skills
+            </h2>
+            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+              Technical  Skills I have till date....
+            </p>
+            <!-- SKILLS HTML -->
+            <div class="skills_data" data-aos="fade-right">
+              <div class="dropdown">
+                <button class="dropbtn">Front End</button>
+                <div class="dropdown-content">
+                    <a >HTML</a>
+                    <a >CSS</a>
+                    <a >JAVA SCRIPT</a>
+                    <a href="#">MATERIAL UI</a>
+                </div>
+            </div>
+            <br>
+
+            <div class="dropdown">
+              <button class="dropbtn">Back End</button>
+              <div class="dropdown-content">
+                  <a href="#">C</a>
+                  <a href="#">JAVA</a>
+                  <a href="#">PYTHON</a>
+              </div>
+          </div><br>
+          
+
+          <div class="dropdown">
+            <button class="dropbtn">Tools & Ide</button>
+            <div class="dropdown-content">
+                <a href="#">ECLIPSE</a>
+                <a href="#">VS CODES</a>
+                <a href="#">NETLIFY</a>
+            </div>
+        </div>
+        
+            </div>
+          </div>
+
+          <div data-aos="fade-left" data-aos-delay="350">
+            <img src="./img/work3.jpg">
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK SECTION -->
+      <section class="work section" id="work">
+        <h2 class="section-title" data-aos="fade-down">Project</h2>
+
+        <div
+          class="work_container bd_grid"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="https://doctor-appointment-log.netlify.app/">
+                <img src="./img/DAS.png" alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc">Doctor appointment Website</div>
+            </div>
+          </div>
+          
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="https://doctor-appointment-log.netlify.app/">
+                <img src="./img/IET.png" alt="Forest" width="600" height="400">
+              </a>
+              <div class="desc">Income Expense Tracker</div>
+            </div>
+          </div>
+          
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="https://doctor-appointment-log.netlify.app/">
+                <img src="./img/PF.png" alt="Portfolio" >
+              </a>
+              <div class="desc"> Portfolio</div>
+            </div>
+          </div>
+
+          
+          <div class="clearfix"></div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+        <div class="contact_container bd_grid">
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact_form">
+                <input type="hidden" name="access_key" value="0480a0c8-77de-42f4-9a41-6d07dde0153d">
+            <input
+              type="text"
+              name="Name"
+              placeholder="Name"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="250" required
+            />
+            <input
+            name="Mail"
+              type="email"
+              placeholder="Email"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="300" required
+            />
+            <textarea
+              name="Message"
+              id=""
+              cols="0"
+              rows="10"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="400"   required
+            ></textarea>
+            <button type="submit" class="button">Submit</button>
+            <!-- <input
+              type="button"
+              value="Send"
+              class="control_button button"
+              data-aos="fade-right"
+              data-aos-delay="450"
+            /> -->
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <p class="footer_title" data-aos="fade-down">Logesh Murugesan</p>
+
+        <div class="footer_socials">
+          <!-- <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="250"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a> -->
+          <a
+            href="mailto:lokeshmurugesan18@gmail.com"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class='bx bxs-envelope' ></i></a>
+          <a
+            href="https://www.linkedin.com/in/logesh-m-396419251/"
+            class="footer_icon"
+            data-aos="fade-down"0
+            data-aos-delay="450"
+            ><i class='bx bxl-linkedin'></i></a>
+          <a
+            href="https://github.com/LogeshMurugesan18"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="550"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <p>&#169;2021 copyright all right reserved</p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
